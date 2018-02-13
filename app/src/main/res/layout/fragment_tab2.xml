@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    //textView for Update Text
+    <TextView
+        android:id="@+id/tvupdateLight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last update 01/31/2016  23:24:42"
+        android:textAlignment="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="80dp"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    //Section1 BathRoom
+    <ImageView
+        android:id="@+id/ivBath"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        app:srcCompat="@drawable/bath" />
+
+    <TextView
+        android:id="@+id/tvBath"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="95dp"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:text="Bathroom" />
+
+    <Switch
+        android:id="@+id/switchBath"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/view1"
+        android:layout_alignRight="@+id/view1"
+        android:layout_alignTop="@+id/tvBath"
+         />
+
+    <View
+        android:layout_width="320dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="25dp"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/view1" />
+
+    //Section2 Bedroom1
+    <ImageView
+        android:id="@+id/ivBed1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="145dp"
+        android:layout_marginLeft="20dp"
+        app:srcCompat="@drawable/bed" />
+
+    <TextView
+        android:id="@+id/tvBed1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="165dp"
+        android:layout_marginLeft="95dp"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:text="Bedroom1" />
+
+    <Switch
+        android:id="@+id/switchBed1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/view2"
+        android:layout_alignRight="@+id/view2"
+        android:layout_alignTop="@+id/tvBed1"
+        />
+
+    <View
+        android:layout_width="320dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="218dp"
+        android:layout_marginLeft="25dp"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/view2" />
+
+    //Section3 Bedroom2
+    <ImageView
+        android:id="@+id/ivBed2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="228dp"
+        android:layout_marginLeft="20dp"
+        app:srcCompat="@drawable/bed" />
+    <TextView
+        android:id="@+id/tvBed2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="95dp"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:text="Bedroom2" />
+    <Switch
+        android:id="@+id/switchBed2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/view3"
+        android:layout_alignRight="@+id/view3"
+        android:layout_alignTop="@+id/tvBed2"
+        />
+    <View
+        android:layout_width="320dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="303dp"
+        android:layout_marginLeft="25dp"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/view3" />
+
+    //Section4 Kitchen
+    <ImageView
+        android:id="@+id/ivkitchen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="312dp"
+        android:layout_marginLeft="20dp"
+        app:srcCompat="@drawable/kit" />
+    <TextView
+        android:id="@+id/tvkitchen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="95dp"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:text="Kitchen" />
+    <Switch
+        android:id="@+id/switchKitchen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/view4"
+        android:layout_alignRight="@+id/view4"
+        android:layout_alignTop="@+id/tvkitchen"
+        />
+    <View
+        android:layout_width="320dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="25dp"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/view4" />
+
+    //Section5 Livingroom
+    <ImageView
+        android:id="@+id/ivLivingroom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="20dp"
+        app:srcCompat="@drawable/liv" />
+    <TextView
+        android:id="@+id/tvLivingroom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="95dp"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:text="Livingroom" />
+    <Switch
+        android:id="@+id/switchLivingroom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/view5"
+        android:layout_alignRight="@+id/view5"
+        android:layout_alignTop="@+id/tvLivingroom"
+        />
+    <View
+        android:layout_width="320dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="25dp"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/view5" />
+
+</RelativeLayout>

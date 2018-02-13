@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    //textView for Update Text
+    <TextView
+        android:id="@+id/tvupdateLight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last update 01/31/2016  23:24:42"
+        android:textAlignment="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="80dp"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    //Section1 for Humdity
+    <TextView
+        android:id="@+id/tvHumidity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="75dp"
+        android:text="Humidity"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvHumidityPer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:textColor="@android:color/black"
+        android:textSize="55dp"
+        android:textStyle="normal|bold"
+        android:text="72.40%" />
+
+    <FrameLayout
+        android:layout_width="125dp"
+        android:layout_height="100dp"
+        android:layout_alignEnd="@+id/view1"
+        android:layout_alignRight="@+id/view1"
+        android:layout_alignTop="@+id/tvHumidity"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="7dp"
+        android:background="@color/colorAccent">
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/arrowup"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+        />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="48dp"
+            android:layout_marginTop="25dp"
+            android:text="96.10%"
+            android:textColor="@android:color/background_light"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/arrowdown"
+            android:layout_marginTop="58dp"
+            android:layout_marginLeft="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="48dp"
+            android:layout_marginTop="61dp"
+            android:text="67.30%"
+            android:textColor="@android:color/background_light"
+            android:textSize="18dp" />
+    </FrameLayout>
+
+    <View
+        android:layout_width="320dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="25dp"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/view1" />
+
+    //Section2 for Temperature
+    <TextView
+        android:id="@+id/tvTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="200dp"
+        android:text="Temperature"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvTempPer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="230dp"
+        android:textColor="@android:color/black"
+        android:textSize="55dp"
+        android:textStyle="normal|bold"
+        android:text="21.20C" />
+
+    <FrameLayout
+        android:layout_width="125dp"
+        android:layout_height="100dp"
+        android:layout_alignEnd="@+id/view2"
+        android:layout_alignRight="@+id/view2"
+        android:layout_alignTop="@+id/tvTemp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="7dp"
+        android:background="@color/colorAccent">
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/arrowup"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="48dp"
+            android:layout_marginTop="25dp"
+            android:text="27.20C"
+            android:textColor="@android:color/background_light"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/arrowdown"
+            android:layout_marginTop="58dp"
+            android:layout_marginLeft="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="48dp"
+            android:layout_marginTop="61dp"
+            android:text="13.01C"
+            android:textColor="@android:color/background_light"
+            android:textSize="18dp" />
+
+    </FrameLayout>
+
+    <View
+        android:layout_width="320dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="305dp"
+        android:layout_marginLeft="25dp"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/view2" />
+</RelativeLayout>

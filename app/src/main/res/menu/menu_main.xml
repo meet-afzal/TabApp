@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.zain.tabapp.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="General Setting"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/action_piAdd"
+        android:orderInCategory="100"
+        android:title="pi_address: 192.168.0.2"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/action_piExtAdd"
+        android:orderInCategory="100"
+        android:title="pi_external_address: "
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/action_lastDate"
+        android:orderInCategory="100"
+        android:title="last_update_datetime: 05/11/2016 23:45:12"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/action_timeInt"
+        android:orderInCategory="100"
+        android:title="info_update_time_interval: 600"
+        app:showAsAction="never"
+        />
+</menu>
